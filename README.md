@@ -5,5 +5,5 @@ luarocks install luasocket
 chmod +x cp.sh
 </code>
 ## How to use:
-<code>lua server.lua // to start server </code>
-<code> ./cp.sh // to create new page </code>
+<code>lua server.lua // to start server
+./cp.sh // to create new page </code>
