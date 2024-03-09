@@ -1,8 +1,9 @@
 # luba
-How to install:
-git clone https://github.com/h1ushkov/luba
+## How to install:
+<code>git clone https://github.com/h1ushkov/luba
 luarocks install luasocket
 chmod +x cp.sh
-How to use:
-lua server.lua // to start server
-./cp.sh // to create new page
+</code>
+## How to use:
+<code>lua server.lua // to start server </code>
+<code> ./cp.sh // to create new page </code>
