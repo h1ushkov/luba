@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<title>LUBA: A Web Antiframework with Lua and Bash</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+<body>
+
+<!-- Overlay effect when opening sidenav on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidenav is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">LUBA: Web Antiframework</h1>
+      <p>LUBA, a unique web antiframework, introduces a refreshing approach to web development by combining Lua and Bash scripting. Unlike traditional frameworks, LUBA embraces flexibility, allowing developers to create tailored architectures. Lua's simplicity and Bash's robustness form a potent combination, making LUBA an ideal choice for lightweight, efficient, and customizable web applications. With a growing community and a gentle learning curve for Lua and Bash enthusiasts, LUBA opens doors to a new paradigm in web development. Explore the possibilities and unleash the power of LUBA for your next project.</p>
+    </div>
+  </div>
+</div>
+
+<script>
+// Script to open and close the sidenav
+function w3_open() {
+    document.getElementsByClassName("w3-sidenav")[0].style.display = "block";
+    document.getElementsByClassName("w3-overlay")[0].style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementsByClassName("w3-sidenav")[0].style.display = "none";
+    document.getElementsByClassName("w3-overlay")[0].style.display = "none";
+}
+</script>
+
+</body>
+</html>
+
